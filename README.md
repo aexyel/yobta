@@ -18,3 +18,7 @@ pfctl -f pf.conf
 * auth_save.sh - keep state
 * auth_load.sh - load state
 * "excludes" - list your IPs to not ban
+
+# About
+## OpenBaSeD project
+Our goal is writing code for basic OpenBSD installation without external dependencies.
