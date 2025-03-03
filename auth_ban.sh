@@ -6,7 +6,7 @@
 ## pfctl -f pf.conf
 
 ##_date=$(date "+%b %d %H:")
-_date=$(date "+%b %d ")
+_date=$(date "+%b %e ")
 ##_date=$(date "+%b 25 ")
 
 fgrep "$_date" /var/log/authlog | fgrep -hvif excludes > _current
